@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import logo from './logo.svg';
+import logo from './react.png';
 
 class App extends Component {
   constructor() {
@@ -79,7 +79,7 @@ class App extends Component {
           <div className="col-md-8 mx-auto">
             <h1 className="text-center display-4">{this.state.title}</h1>
             <div className="text-center sub-header">
-              Built with<a href="https://reactjs.org/"><img src={logo} alt="" height="25" /></a>
+              Built with <a href="https://reactjs.org/"><img src={logo} alt="" height="25" /></a>
             </div>
             <form className="input-group" onSubmit={this.handleSubmit}>
               <input
